@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.our-jumbotron-sm-hero {
+  background-image: url(./../javascripts/images/photo-hero.jpeg);
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
