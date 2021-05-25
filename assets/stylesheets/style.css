@@ -1,0 +1,7 @@
+.our-jumbotron-hero {
+  background-image: url(./../javascripts/images/photo-hero.jpeg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
