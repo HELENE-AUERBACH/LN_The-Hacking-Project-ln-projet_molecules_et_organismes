@@ -27,10 +27,106 @@
 
   <body>
     <div class="container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <h6 class="my-0 font-weight-normal">The Eventbrite minimal Project</h6>
+        <div class="container-fluid flex-row-reverse">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Accueil
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Créer un événement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../ui_kit/ui_kit.html">Notre Kit UI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../team/index.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./../contact/index.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">S'inscrire / Se connecter</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">S'inscrire</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Se connecter</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mon profil</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Mon profil</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Se déconnecter</a>
+                </div>
+              </li>
+	    </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
       <h2>Hello World</h2>
-      <p>
-        The time is now: <%= Time.now %>
-      </p>
+      <ul class="">
+        <li class="">
+          <p class=""><a data-method="get" href="./../ui_kit/ui_kit.html">Le Kit UI que nous avons choisi : Bootswatch: Quartz</a><span class="visually-hidden">(current)</span></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../navbar.html">Notre Navbar</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../footer.html">Notre Footer</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../authentification_form.html">Notre organisme "formulaire d'authentification"</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../banner.html">Notre bannière</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../">Nos cartes de présentation : molécules et organismes</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../">Nos commentaires : molécule et organisme</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../">Notre section "présentation ressource"</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../">Notre section "présentation d'un élément"</a></p>
+        </li>
+        <li class="">
+          <p class=""><a data-method="get" href="./../../">Notre organisme "rien qu'à nous"</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <footer class="pt-4 my-md-5 pt-md-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <small class="d-block mb-3 text-muted">&copy; Hatching Hacking Cercle</small>
+	    <p>
+	      Based on <a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a> and <a href="https://bootswatch.com/" rel="nofollow">Bootswatch</a>. Icons from <a href="https://fontawesome.com/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="https://fonts.google.com/" rel="nofollow">Google</a>.
+	      <span class="d-flex flex-row-reverse me-auto"><a href="#top">Back to top</a></span>
+	    </p>
+	  </div>
+        </div>
+      </footer>
     </div>
     
     <!-- Optional JavaScript -->
